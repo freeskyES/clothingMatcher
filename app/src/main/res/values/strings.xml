@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ClothingMatcherByCamera</string>
+
+    <!-- Strings for camera settings. -->
+    <string name="pref_category_key_camera" translatable="false">pckc</string>
+    <string name="pref_category_title_camera">Camera</string>
+    <string name="pref_key_rear_camera_preview_size" translatable="false">rcpvs</string>
+    <string name="pref_key_rear_camera_picture_size" translatable="false">rcpts</string>
+    <string name="pref_key_front_camera_preview_size" translatable="false">fcpvs</string>
+    <string name="pref_key_front_camera_picture_size" translatable="false">fcpts</string>
+    <string name="pref_key_camera_live_viewport" translatable="false">clv</string>
+    <!--    <string name="pref_title_rear_camera_preview_size">Rear camera preview size</string>-->
+    <!--    <string name="pref_title_front_camera_preview_size">Front camera preview size</string>-->
+    <!--    <string name="pref_title_camera_live_viewport">Enable live viewport</string>-->
+    <!--    <string name="pref_summary_camera_live_viewport">Do not block camera preview drawing on detection</string>-->
+
+    <string name="camera_guide_title">Please put your face\non the guideline</string>
+    <string name="camera_recognition_fail">Unable to recognize any faces</string>
+
+</resources>

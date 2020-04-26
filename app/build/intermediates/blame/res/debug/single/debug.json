@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/drawable_test_image3.png.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/drawable/test_image3.png"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/drawable_test_image.webp.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/drawable/test_image.webp"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/drawable_ic_close.xml.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/drawable/ic_close.xml"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/drawable_ic_guide_face.xml.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/drawable/ic_guide_face.xml"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/layout_rv_clothes_item.xml.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/layout/rv_clothes_item.xml"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/layout_activity_camera.xml.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/layout/activity_camera.xml"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/drawable_ic_gomst_error.xml.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/drawable/ic_gomst_error.xml"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/drawable_test_image2.png.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/drawable/test_image2.png"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/drawable_ic_back_key.xml.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/drawable/ic_back_key.xml"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/drawable_ic_outline.xml.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/drawable/ic_outline.xml"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/layout_face_recognition_guide.xml.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/layout/face_recognition_guide.xml"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/drawable_ic_shutter.xml.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/drawable/ic_shutter.xml"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/res/merged/debug/drawable_ic_facing_switch.xml.flat",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/drawable/ic_facing_switch.xml"
+    }
+]

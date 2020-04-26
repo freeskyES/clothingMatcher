@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bg_cardCornerRadius">30dp</dimen>
+<!--    <dimen name="facing_switch_btn_size">24dp</dimen>-->
+
+    <dimen name="normal_btn_size">24dp</dimen>
+
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+
+    <dimen name="face_guide_width_size">220dp</dimen>
+    <dimen name="face_guide_height_size">293dp</dimen>
+
+    <dimen name="camera_shutter_btn_size">70dp</dimen>
+
+    <dimen name="clothes_item_size">56dp</dimen>
+
+    <dimen name="card_view_margin">8dp</dimen>
+
+</resources>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/rv_clothes_item.xml",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/layout/rv_clothes_item.xml"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/face_recognition_guide.xml",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/layout/face_recognition_guide.xml"
+    },
+    {
+        "merged": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_camera.xml",
+        "source": "/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/res/layout/activity_camera.xml"
+    }
+]

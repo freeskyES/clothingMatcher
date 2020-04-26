@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="viewmodel"
+            type="com.eunsong.clothingmatcherbycamera.CameraViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        app:visibleGone="@{!viewmodel.isDetectedFace}"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.Guideline
+            app:layout_constraintGuide_percent="0.25"
+            android:orientation="horizontal"
+            android:id="@+id/vertical_guideline_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:src="@drawable/ic_guide_face"
+            android:id="@+id/guide_image"
+            app:layout_constraintTop_toBottomOf="@+id/vertical_guideline_start"
+            app:layout_constraintBottom_toTopOf="@+id/vertical_guideline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="@dimen/face_guide_width_size"
+            android:layout_height="0dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            app:layout_constraintGuide_percent="0.65"
+            android:orientation="horizontal"
+            android:id="@+id/vertical_guideline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/guide_title"
+            style="@style/AppTheme.Camera.GuideTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/camera_guide_title"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/vertical_guideline"
+            app:layout_constraintVertical_bias="0.70" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

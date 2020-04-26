@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="bgBlack">#000</color>
+    <color name="bgCamera">#00bbff</color>
+    <color name="clothesName">#0d1a6a</color>
+    <color name="grayColor">#f3f4f8</color>
+
+    <!--    <color name="colorPrimaryDark">#3700B3</color>-->
+<!--    <color name="colorAccent">#03DAC5</color>-->
+
+</resources>

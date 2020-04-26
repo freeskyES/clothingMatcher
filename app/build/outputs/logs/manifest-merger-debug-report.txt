@@ -1,0 +1,585 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:2:1-37:12
+MERGED from [androidx.databinding:databinding-adapters:4.0.0-alpha05] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/afa42fe428a7b416b684c602a977918e/databinding-adapters-4.0.0-alpha05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:4.0.0-alpha05] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/72cba5a3be4e51fb8525d895b78daaa7/databinding-runtime-4.0.0-alpha05/AndroidManifest.xml:17:1-24:12
+MERGED from [org.koin:koin-android-viewmodel:2.0.1] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/3e5c6b9af791e2c6aa9ac129faae5ae1/jetified-koin-android-viewmodel-2.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [org.koin:koin-android-scope:2.0.1] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5ebe50577574f31cbdac77312d3bdd73/jetified-koin-android-scope-2.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f56df1e498d25f79aaa44f945e9bf18a/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.yarolegovich:discrete-scrollview:1.4.9] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/6fee43a473c98f1807ccd9886daf3bc1/jetified-discrete-scrollview-1.4.9/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/0110082b6d087d76432f86cb4ef5c259/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/540a6ff98131ca162d46dbe5789c6580/jetified-core-ktx-1.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/9b751f47b00d0804066c5a0f9fbf7367/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-analytics:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/dfe4628a9ba3468d63d787cd5445fd3b/jetified-firebase-analytics-17.3.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/ff0239bca15a16159ead63b3a3f3a3fb/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cdb884ae26c1593662870771186cc229/jetified-glide-4.11.0/AndroidManifest.xml:2:1-12:12
+MERGED from [org.koin:koin-android:2.0.1] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/e30f0d32dccfd0c186b26b9083db3481/jetified-koin-android-2.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/80c559da93c330d512e9ef139a894fb1/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.camera:camera-camera2:1.0.0-beta02] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/458d4ad85d97617f0184d339b12f9d70/jetified-camera-camera2-1.0.0-beta02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-core:1.0.0-beta02] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/54b9e706cf8daaf5f6718d4b8aa65fbe/jetified-camera-core-1.0.0-beta02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/95c50be9e71f801276d2ed477f920f13/media-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-ml-vision:24.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/652d25f5666fb78f931d26a4669bbd19/jetified-firebase-ml-vision-24.0.2/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:20.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/05cc1d38d5c9189ccf4f186bd090b416/jetified-firebase-ml-vision-face-model-20.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/bb2e6216e86d5ae264a5e4663e8647d7/jetified-timber-4.7.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.databinding:viewbinding:4.0.0-alpha05] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/a59e1e474cde0f48f8adf963c4356c13/jetified-viewbinding-4.0.0-alpha05/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/28d4521e294aa7f91b6194c2a77d82e3/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/47e86fe1b6ca0d8f28ab870403a68310/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/a10ddfd5b221c4bca71b542ca5ec0370/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/296ebe0b7460bf7ae3329fd8be241931/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5799f9c3f3214c64214b15c70cee6382/jetified-play-services-vision-face-contour-internal-16.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision:20.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/01cb6d4a29f47ead7a2550ed530c0b80/jetified-play-services-vision-20.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-image-label:18.0.3] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/97c4a3cac5c8424a1a3e7fa11714f7b9/jetified-play-services-vision-image-label-18.0.3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:19.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/6aa146db1622cba97fedd39369e8793a/jetified-play-services-vision-common-19.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-ml-common:22.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/a375ee2ca285db46d1401c23df6feeb6/jetified-firebase-ml-common-22.1.0/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/62b20502d3a9644af1a95d9698faa8c4/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/22048fdb3f0b882469eef1c61c452649/jetified-play-services-flags-17.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/2461170556f6f1338617ae1dadf0c7b3/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5b5f408fe0af55cafb95d6b41bb94c4f/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/ba007b8a0669c3533ea6b69a78254375/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/33e1cec4e72bb8c29b918223476f718f/jetified-play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/9d06533f5e7cdf48db8fc91c4cdaa63d/jetified-play-services-measurement-sdk-17.3.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/762989cf5f6ad7f9c3994cae46fcdc67/jetified-firebase-common-19.3.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/b258bff425d6b34c1180bbf6bf5342c8/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/b67c3599350ddca59d4f83cc232bd54f/jetified-play-services-measurement-impl-17.3.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/4dc5ee696ee9a3b3f69da38d61deff0f/jetified-play-services-measurement-sdk-api-17.3.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/895a97210957d8306c37249609539edf/jetified-play-services-measurement-base-17.3.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/89df0748cb5ce650c9d22d4971719f4f/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/45ca4e9baebc07ea5ac480438845289b/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/bf2724c08a5a0e67ae02512c40d990fe/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/08d6401ad06c2227151cafefbb0588cd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/eaabd9b6331cac24d0c2a24f5d972e76/fragment-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/19ea44cc63127e03c27c4b94e9b5ce81/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/141d734379dedcbd5b133d66bd58848d/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/1f7970ee187d1c8682deba0645762d2d/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/83e3f11731e3f3a9054839a1e9135238/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/dc6f1ba69b74187cb3332d736a7217f7/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/a4fc7896ed54cf827fe85524ef1b06eb/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/95f7da20846fcee4fdc1ae700f09c032/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/c3886efc37ca67c7128ca0cf62db8fa7/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/7e3bed0ec899d52365c27100b4b0b1c7/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/0508799fe4eab819c6c95dcee5082f9d/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/3c1ede73863ebb249ff44a4f5fb51ed1/core-1.2.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/fc5e1324ca586360a646ba29677d31d7/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/b0857dc0d407793e79610a019e921726/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/6573373b9bcad86a744294ae8e3d04e7/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/98d7a2703db423e8b4dc600294a9a599/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5027677e5189e1fb04e69187092527b0/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/d85a60f378f664cf7e7e1d8bb8a25336/jetified-gifdecoder-4.11.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/9d5eaa7bd7f059f09bf9a74b54496b2f/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/db874c48c12e2af532637a7b998d945d/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/84ecbef7253310ee51813b07af67142a/jetified-lifecycle-viewmodel-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/0719f087b922c5e8b1971dd852041cf8/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/8505ca678b275d10e2ff2736b060e3e7/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/9043ec9bda1c055a24806a0ffebc163e/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/b013e1ec57bae2bc9cbaa8eec86a0cde/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/8b64e89149e5f02a9846b1774959966e/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/36659975a95090910eb0674d35d25fa0/jetified-firebase-components-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/dc172f41539f74f0ccd75079d8bb3c94/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/04b9f1ba783d6bba572a68cedddd345b/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/74d3b599b66047f68f8e0b2758592191/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/372a50b4c8262f8645a61e19d1180159/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0-rc01] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/bcf9c12cb60b6276e794d135ca7930e2/jetified-annotation-experimental-1.0.0-rc01/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:2:1-37:12
+	package
+		ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:3:5-50
+		INJECTED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:2:1-37:12
+		INJECTED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:2:1-37:12
+		INJECTED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:5:22-62
+uses-permission#android.permission.INTERNET
+ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5b5f408fe0af55cafb95d6b41bb94c4f/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5b5f408fe0af55cafb95d6b41bb94c4f/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/b67c3599350ddca59d4f83cc232bd54f/jetified-play-services-measurement-impl-17.3.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/b67c3599350ddca59d4f83cc232bd54f/jetified-play-services-measurement-impl-17.3.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/4dc5ee696ee9a3b3f69da38d61deff0f/jetified-play-services-measurement-sdk-api-17.3.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/4dc5ee696ee9a3b3f69da38d61deff0f/jetified-play-services-measurement-sdk-api-17.3.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:7:22-78
+uses-feature#android.hardware.camera
+ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:9:5-60
+	android:name
+		ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:9:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:10:5-70
+	android:name
+		ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:10:19-67
+application
+ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:12:5-35:19
+MERGED from [org.koin:koin-android-viewmodel:2.0.1] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/3e5c6b9af791e2c6aa9ac129faae5ae1/jetified-koin-android-viewmodel-2.0.1/AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-android-viewmodel:2.0.1] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/3e5c6b9af791e2c6aa9ac129faae5ae1/jetified-koin-android-viewmodel-2.0.1/AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-android-scope:2.0.1] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5ebe50577574f31cbdac77312d3bdd73/jetified-koin-android-scope-2.0.1/AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-android-scope:2.0.1] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5ebe50577574f31cbdac77312d3bdd73/jetified-koin-android-scope-2.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f56df1e498d25f79aaa44f945e9bf18a/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f56df1e498d25f79aaa44f945e9bf18a/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/9b751f47b00d0804066c5a0f9fbf7367/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/9b751f47b00d0804066c5a0f9fbf7367/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/dfe4628a9ba3468d63d787cd5445fd3b/jetified-firebase-analytics-17.3.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/dfe4628a9ba3468d63d787cd5445fd3b/jetified-firebase-analytics-17.3.0/AndroidManifest.xml:7:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cdb884ae26c1593662870771186cc229/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cdb884ae26c1593662870771186cc229/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/80c559da93c330d512e9ef139a894fb1/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/80c559da93c330d512e9ef139a894fb1/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-ml-vision:24.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/652d25f5666fb78f931d26a4669bbd19/jetified-firebase-ml-vision-24.0.2/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-ml-vision:24.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/652d25f5666fb78f931d26a4669bbd19/jetified-firebase-ml-vision-24.0.2/AndroidManifest.xml:8:5-16:19
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/bb2e6216e86d5ae264a5e4663e8647d7/jetified-timber-4.7.1/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/bb2e6216e86d5ae264a5e4663e8647d7/jetified-timber-4.7.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5799f9c3f3214c64214b15c70cee6382/jetified-play-services-vision-face-contour-internal-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5799f9c3f3214c64214b15c70cee6382/jetified-play-services-vision-face-contour-internal-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/01cb6d4a29f47ead7a2550ed530c0b80/jetified-play-services-vision-20.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/01cb6d4a29f47ead7a2550ed530c0b80/jetified-play-services-vision-20.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:18.0.3] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/97c4a3cac5c8424a1a3e7fa11714f7b9/jetified-play-services-vision-image-label-18.0.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:18.0.3] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/97c4a3cac5c8424a1a3e7fa11714f7b9/jetified-play-services-vision-image-label-18.0.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/6aa146db1622cba97fedd39369e8793a/jetified-play-services-vision-common-19.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/6aa146db1622cba97fedd39369e8793a/jetified-play-services-vision-common-19.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ml-common:22.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/a375ee2ca285db46d1401c23df6feeb6/jetified-firebase-ml-common-22.1.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-ml-common:22.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/a375ee2ca285db46d1401c23df6feeb6/jetified-firebase-ml-common-22.1.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/62b20502d3a9644af1a95d9698faa8c4/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/62b20502d3a9644af1a95d9698faa8c4/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/2461170556f6f1338617ae1dadf0c7b3/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/2461170556f6f1338617ae1dadf0c7b3/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5b5f408fe0af55cafb95d6b41bb94c4f/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5b5f408fe0af55cafb95d6b41bb94c4f/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/ba007b8a0669c3533ea6b69a78254375/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/ba007b8a0669c3533ea6b69a78254375/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/33e1cec4e72bb8c29b918223476f718f/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/33e1cec4e72bb8c29b918223476f718f/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/9d06533f5e7cdf48db8fc91c4cdaa63d/jetified-play-services-measurement-sdk-17.3.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/9d06533f5e7cdf48db8fc91c4cdaa63d/jetified-play-services-measurement-sdk-17.3.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/762989cf5f6ad7f9c3994cae46fcdc67/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/762989cf5f6ad7f9c3994cae46fcdc67/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/b258bff425d6b34c1180bbf6bf5342c8/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/b258bff425d6b34c1180bbf6bf5342c8/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/b67c3599350ddca59d4f83cc232bd54f/jetified-play-services-measurement-impl-17.3.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/b67c3599350ddca59d4f83cc232bd54f/jetified-play-services-measurement-impl-17.3.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/895a97210957d8306c37249609539edf/jetified-play-services-measurement-base-17.3.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/895a97210957d8306c37249609539edf/jetified-play-services-measurement-base-17.3.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/89df0748cb5ce650c9d22d4971719f4f/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/89df0748cb5ce650c9d22d4971719f4f/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/45ca4e9baebc07ea5ac480438845289b/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/45ca4e9baebc07ea5ac480438845289b/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/bf2724c08a5a0e67ae02512c40d990fe/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/bf2724c08a5a0e67ae02512c40d990fe/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/08d6401ad06c2227151cafefbb0588cd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/08d6401ad06c2227151cafefbb0588cd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/3c1ede73863ebb249ff44a4f5fb51ed1/core-1.2.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/3c1ede73863ebb249ff44a4f5fb51ed1/core-1.2.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/fc5e1324ca586360a646ba29677d31d7/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/fc5e1324ca586360a646ba29677d31d7/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/98d7a2703db423e8b4dc600294a9a599/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/98d7a2703db423e8b4dc600294a9a599/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/d85a60f378f664cf7e7e1d8bb8a25336/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/d85a60f378f664cf7e7e1d8bb8a25336/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/3c1ede73863ebb249ff44a4f5fb51ed1/core-1.2.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:16:9-41
+	android:roundIcon
+		ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:17:9-54
+	android:icon
+		ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:19:9-40
+	android:name
+		ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:13:9-42
+meta-data#com.google.firebase.ml.vision.DEPENDENCIES
+ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:21:9-23:36
+	android:value
+		ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:23:13-33
+	android:name
+		ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:22:13-70
+activity#com.eunsong.clothingmatcherbycamera.CameraActivity
+ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:25:9-27:20
+	android:name
+		ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:25:19-49
+activity#com.eunsong.clothingmatcherbycamera.MainActivity
+ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:28:9-34:20
+	android:name
+		ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:28:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:29:13-33:29
+action#android.intent.action.MAIN
+ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:32:27-74
+uses-sdk
+INJECTED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml
+INJECTED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:4.0.0-alpha05] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/afa42fe428a7b416b684c602a977918e/databinding-adapters-4.0.0-alpha05/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:4.0.0-alpha05] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/afa42fe428a7b416b684c602a977918e/databinding-adapters-4.0.0-alpha05/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.0.0-alpha05] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/72cba5a3be4e51fb8525d895b78daaa7/databinding-runtime-4.0.0-alpha05/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.0.0-alpha05] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/72cba5a3be4e51fb8525d895b78daaa7/databinding-runtime-4.0.0-alpha05/AndroidManifest.xml:22:5-44
+MERGED from [org.koin:koin-android-viewmodel:2.0.1] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/3e5c6b9af791e2c6aa9ac129faae5ae1/jetified-koin-android-viewmodel-2.0.1/AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android-viewmodel:2.0.1] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/3e5c6b9af791e2c6aa9ac129faae5ae1/jetified-koin-android-viewmodel-2.0.1/AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android-scope:2.0.1] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5ebe50577574f31cbdac77312d3bdd73/jetified-koin-android-scope-2.0.1/AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android-scope:2.0.1] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5ebe50577574f31cbdac77312d3bdd73/jetified-koin-android-scope-2.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f56df1e498d25f79aaa44f945e9bf18a/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f56df1e498d25f79aaa44f945e9bf18a/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.yarolegovich:discrete-scrollview:1.4.9] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/6fee43a473c98f1807ccd9886daf3bc1/jetified-discrete-scrollview-1.4.9/AndroidManifest.xml:8:5-10:41
+MERGED from [com.yarolegovich:discrete-scrollview:1.4.9] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/6fee43a473c98f1807ccd9886daf3bc1/jetified-discrete-scrollview-1.4.9/AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/0110082b6d087d76432f86cb4ef5c259/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/0110082b6d087d76432f86cb4ef5c259/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/540a6ff98131ca162d46dbe5789c6580/jetified-core-ktx-1.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/540a6ff98131ca162d46dbe5789c6580/jetified-core-ktx-1.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/9b751f47b00d0804066c5a0f9fbf7367/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/9b751f47b00d0804066c5a0f9fbf7367/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-analytics:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/dfe4628a9ba3468d63d787cd5445fd3b/jetified-firebase-analytics-17.3.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/dfe4628a9ba3468d63d787cd5445fd3b/jetified-firebase-analytics-17.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/ff0239bca15a16159ead63b3a3f3a3fb/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/ff0239bca15a16159ead63b3a3f3a3fb/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cdb884ae26c1593662870771186cc229/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cdb884ae26c1593662870771186cc229/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [org.koin:koin-android:2.0.1] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/e30f0d32dccfd0c186b26b9083db3481/jetified-koin-android-2.0.1/AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android:2.0.1] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/e30f0d32dccfd0c186b26b9083db3481/jetified-koin-android-2.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/80c559da93c330d512e9ef139a894fb1/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/80c559da93c330d512e9ef139a894fb1/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-camera2:1.0.0-beta02] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/458d4ad85d97617f0184d339b12f9d70/jetified-camera-camera2-1.0.0-beta02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-camera2:1.0.0-beta02] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/458d4ad85d97617f0184d339b12f9d70/jetified-camera-camera2-1.0.0-beta02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.0.0-beta02] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/54b9e706cf8daaf5f6718d4b8aa65fbe/jetified-camera-core-1.0.0-beta02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.0.0-beta02] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/54b9e706cf8daaf5f6718d4b8aa65fbe/jetified-camera-core-1.0.0-beta02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/95c50be9e71f801276d2ed477f920f13/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/95c50be9e71f801276d2ed477f920f13/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-ml-vision:24.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/652d25f5666fb78f931d26a4669bbd19/jetified-firebase-ml-vision-24.0.2/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision:24.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/652d25f5666fb78f931d26a4669bbd19/jetified-firebase-ml-vision-24.0.2/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:20.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/05cc1d38d5c9189ccf4f186bd090b416/jetified-firebase-ml-vision-face-model-20.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:20.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/05cc1d38d5c9189ccf4f186bd090b416/jetified-firebase-ml-vision-face-model-20.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/bb2e6216e86d5ae264a5e4663e8647d7/jetified-timber-4.7.1/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/bb2e6216e86d5ae264a5e4663e8647d7/jetified-timber-4.7.1/AndroidManifest.xml:5:5-43
+MERGED from [androidx.databinding:viewbinding:4.0.0-alpha05] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/a59e1e474cde0f48f8adf963c4356c13/jetified-viewbinding-4.0.0-alpha05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.0.0-alpha05] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/a59e1e474cde0f48f8adf963c4356c13/jetified-viewbinding-4.0.0-alpha05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/28d4521e294aa7f91b6194c2a77d82e3/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/28d4521e294aa7f91b6194c2a77d82e3/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/47e86fe1b6ca0d8f28ab870403a68310/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/47e86fe1b6ca0d8f28ab870403a68310/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/a10ddfd5b221c4bca71b542ca5ec0370/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/a10ddfd5b221c4bca71b542ca5ec0370/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/296ebe0b7460bf7ae3329fd8be241931/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/296ebe0b7460bf7ae3329fd8be241931/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5799f9c3f3214c64214b15c70cee6382/jetified-play-services-vision-face-contour-internal-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5799f9c3f3214c64214b15c70cee6382/jetified-play-services-vision-face-contour-internal-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/01cb6d4a29f47ead7a2550ed530c0b80/jetified-play-services-vision-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/01cb6d4a29f47ead7a2550ed530c0b80/jetified-play-services-vision-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:18.0.3] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/97c4a3cac5c8424a1a3e7fa11714f7b9/jetified-play-services-vision-image-label-18.0.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:18.0.3] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/97c4a3cac5c8424a1a3e7fa11714f7b9/jetified-play-services-vision-image-label-18.0.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/6aa146db1622cba97fedd39369e8793a/jetified-play-services-vision-common-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/6aa146db1622cba97fedd39369e8793a/jetified-play-services-vision-common-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-common:22.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/a375ee2ca285db46d1401c23df6feeb6/jetified-firebase-ml-common-22.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-common:22.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/a375ee2ca285db46d1401c23df6feeb6/jetified-firebase-ml-common-22.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/62b20502d3a9644af1a95d9698faa8c4/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/62b20502d3a9644af1a95d9698faa8c4/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/22048fdb3f0b882469eef1c61c452649/jetified-play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/22048fdb3f0b882469eef1c61c452649/jetified-play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/2461170556f6f1338617ae1dadf0c7b3/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/2461170556f6f1338617ae1dadf0c7b3/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5b5f408fe0af55cafb95d6b41bb94c4f/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5b5f408fe0af55cafb95d6b41bb94c4f/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/ba007b8a0669c3533ea6b69a78254375/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/ba007b8a0669c3533ea6b69a78254375/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/33e1cec4e72bb8c29b918223476f718f/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/33e1cec4e72bb8c29b918223476f718f/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/9d06533f5e7cdf48db8fc91c4cdaa63d/jetified-play-services-measurement-sdk-17.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/9d06533f5e7cdf48db8fc91c4cdaa63d/jetified-play-services-measurement-sdk-17.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/762989cf5f6ad7f9c3994cae46fcdc67/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/762989cf5f6ad7f9c3994cae46fcdc67/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/b258bff425d6b34c1180bbf6bf5342c8/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/b258bff425d6b34c1180bbf6bf5342c8/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/b67c3599350ddca59d4f83cc232bd54f/jetified-play-services-measurement-impl-17.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/b67c3599350ddca59d4f83cc232bd54f/jetified-play-services-measurement-impl-17.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/4dc5ee696ee9a3b3f69da38d61deff0f/jetified-play-services-measurement-sdk-api-17.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/4dc5ee696ee9a3b3f69da38d61deff0f/jetified-play-services-measurement-sdk-api-17.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/895a97210957d8306c37249609539edf/jetified-play-services-measurement-base-17.3.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/895a97210957d8306c37249609539edf/jetified-play-services-measurement-base-17.3.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/89df0748cb5ce650c9d22d4971719f4f/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/89df0748cb5ce650c9d22d4971719f4f/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/45ca4e9baebc07ea5ac480438845289b/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/45ca4e9baebc07ea5ac480438845289b/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/bf2724c08a5a0e67ae02512c40d990fe/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/bf2724c08a5a0e67ae02512c40d990fe/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/08d6401ad06c2227151cafefbb0588cd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/08d6401ad06c2227151cafefbb0588cd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/eaabd9b6331cac24d0c2a24f5d972e76/fragment-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/eaabd9b6331cac24d0c2a24f5d972e76/fragment-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/19ea44cc63127e03c27c4b94e9b5ce81/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/19ea44cc63127e03c27c4b94e9b5ce81/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/141d734379dedcbd5b133d66bd58848d/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/141d734379dedcbd5b133d66bd58848d/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/1f7970ee187d1c8682deba0645762d2d/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/1f7970ee187d1c8682deba0645762d2d/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/83e3f11731e3f3a9054839a1e9135238/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/83e3f11731e3f3a9054839a1e9135238/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/dc6f1ba69b74187cb3332d736a7217f7/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/dc6f1ba69b74187cb3332d736a7217f7/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/a4fc7896ed54cf827fe85524ef1b06eb/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/a4fc7896ed54cf827fe85524ef1b06eb/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/95f7da20846fcee4fdc1ae700f09c032/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/95f7da20846fcee4fdc1ae700f09c032/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/c3886efc37ca67c7128ca0cf62db8fa7/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/c3886efc37ca67c7128ca0cf62db8fa7/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/7e3bed0ec899d52365c27100b4b0b1c7/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/7e3bed0ec899d52365c27100b4b0b1c7/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/0508799fe4eab819c6c95dcee5082f9d/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/0508799fe4eab819c6c95dcee5082f9d/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/3c1ede73863ebb249ff44a4f5fb51ed1/core-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/3c1ede73863ebb249ff44a4f5fb51ed1/core-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/fc5e1324ca586360a646ba29677d31d7/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/fc5e1324ca586360a646ba29677d31d7/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/b0857dc0d407793e79610a019e921726/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/b0857dc0d407793e79610a019e921726/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/6573373b9bcad86a744294ae8e3d04e7/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/6573373b9bcad86a744294ae8e3d04e7/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/98d7a2703db423e8b4dc600294a9a599/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/98d7a2703db423e8b4dc600294a9a599/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5027677e5189e1fb04e69187092527b0/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5027677e5189e1fb04e69187092527b0/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/d85a60f378f664cf7e7e1d8bb8a25336/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/d85a60f378f664cf7e7e1d8bb8a25336/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/9d5eaa7bd7f059f09bf9a74b54496b2f/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/9d5eaa7bd7f059f09bf9a74b54496b2f/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/db874c48c12e2af532637a7b998d945d/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/db874c48c12e2af532637a7b998d945d/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/84ecbef7253310ee51813b07af67142a/jetified-lifecycle-viewmodel-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/84ecbef7253310ee51813b07af67142a/jetified-lifecycle-viewmodel-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/0719f087b922c5e8b1971dd852041cf8/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/0719f087b922c5e8b1971dd852041cf8/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/8505ca678b275d10e2ff2736b060e3e7/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/8505ca678b275d10e2ff2736b060e3e7/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/9043ec9bda1c055a24806a0ffebc163e/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/9043ec9bda1c055a24806a0ffebc163e/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/b013e1ec57bae2bc9cbaa8eec86a0cde/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/b013e1ec57bae2bc9cbaa8eec86a0cde/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/8b64e89149e5f02a9846b1774959966e/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/8b64e89149e5f02a9846b1774959966e/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/36659975a95090910eb0674d35d25fa0/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/36659975a95090910eb0674d35d25fa0/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/dc172f41539f74f0ccd75079d8bb3c94/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/dc172f41539f74f0ccd75079d8bb3c94/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/04b9f1ba783d6bba572a68cedddd345b/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/04b9f1ba783d6bba572a68cedddd345b/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/74d3b599b66047f68f8e0b2758592191/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/74d3b599b66047f68f8e0b2758592191/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/372a50b4c8262f8645a61e19d1180159/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/372a50b4c8262f8645a61e19d1180159/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0-rc01] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/bcf9c12cb60b6276e794d135ca7930e2/jetified-annotation-experimental-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0-rc01] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/bcf9c12cb60b6276e794d135ca7930e2/jetified-annotation-experimental-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml
+INJECTED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-ml-vision:24.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/652d25f5666fb78f931d26a4669bbd19/jetified-firebase-ml-vision-24.0.2/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-ml-common:22.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/a375ee2ca285db46d1401c23df6feeb6/jetified-firebase-ml-common-22.1.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-ml-common:22.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/a375ee2ca285db46d1401c23df6feeb6/jetified-firebase-ml-common-22.1.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5b5f408fe0af55cafb95d6b41bb94c4f/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5b5f408fe0af55cafb95d6b41bb94c4f/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/762989cf5f6ad7f9c3994cae46fcdc67/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/762989cf5f6ad7f9c3994cae46fcdc67/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-ml-vision:24.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/652d25f5666fb78f931d26a4669bbd19/jetified-firebase-ml-vision-24.0.2/AndroidManifest.xml:11:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/762989cf5f6ad7f9c3994cae46fcdc67/jetified-firebase-common-19.3.0/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/762989cf5f6ad7f9c3994cae46fcdc67/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-ml-vision:24.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/652d25f5666fb78f931d26a4669bbd19/jetified-firebase-ml-vision-24.0.2/AndroidManifest.xml:10:13-84
+meta-data#com.google.firebase.components:com.google.firebase.ml.vision.VisionRegistrar
+ADDED from [com.google.firebase:firebase-ml-vision:24.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/652d25f5666fb78f931d26a4669bbd19/jetified-firebase-ml-vision-24.0.2/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-ml-vision:24.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/652d25f5666fb78f931d26a4669bbd19/jetified-firebase-ml-vision-24.0.2/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-ml-vision:24.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/652d25f5666fb78f931d26a4669bbd19/jetified-firebase-ml-vision-24.0.2/AndroidManifest.xml:13:17-108
+meta-data#com.google.firebase.components:com.google.firebase.ml.common.CommonComponentRegistrar
+ADDED from [com.google.firebase:firebase-ml-common:22.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/a375ee2ca285db46d1401c23df6feeb6/jetified-firebase-ml-common-22.1.0/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-ml-common:22.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/a375ee2ca285db46d1401c23df6feeb6/jetified-firebase-ml-common-22.1.0/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-ml-common:22.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/a375ee2ca285db46d1401c23df6feeb6/jetified-firebase-ml-common-22.1.0/AndroidManifest.xml:12:17-117
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-measurement-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5b5f408fe0af55cafb95d6b41bb94c4f/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/b67c3599350ddca59d4f83cc232bd54f/jetified-play-services-measurement-impl-17.3.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/b67c3599350ddca59d4f83cc232bd54f/jetified-play-services-measurement-impl-17.3.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/4dc5ee696ee9a3b3f69da38d61deff0f/jetified-play-services-measurement-sdk-api-17.3.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/4dc5ee696ee9a3b3f69da38d61deff0f/jetified-play-services-measurement-sdk-api-17.3.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5b5f408fe0af55cafb95d6b41bb94c4f/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5b5f408fe0af55cafb95d6b41bb94c4f/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/b67c3599350ddca59d4f83cc232bd54f/jetified-play-services-measurement-impl-17.3.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/b67c3599350ddca59d4f83cc232bd54f/jetified-play-services-measurement-impl-17.3.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/4dc5ee696ee9a3b3f69da38d61deff0f/jetified-play-services-measurement-sdk-api-17.3.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/4dc5ee696ee9a3b3f69da38d61deff0f/jetified-play-services-measurement-sdk-api-17.3.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5b5f408fe0af55cafb95d6b41bb94c4f/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5b5f408fe0af55cafb95d6b41bb94c4f/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5b5f408fe0af55cafb95d6b41bb94c4f/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5b5f408fe0af55cafb95d6b41bb94c4f/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/33e1cec4e72bb8c29b918223476f718f/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/33e1cec4e72bb8c29b918223476f718f/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/33e1cec4e72bb8c29b918223476f718f/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/33e1cec4e72bb8c29b918223476f718f/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/b67c3599350ddca59d4f83cc232bd54f/jetified-play-services-measurement-impl-17.3.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/b67c3599350ddca59d4f83cc232bd54f/jetified-play-services-measurement-impl-17.3.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/b67c3599350ddca59d4f83cc232bd54f/jetified-play-services-measurement-impl-17.3.0/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/b67c3599350ddca59d4f83cc232bd54f/jetified-play-services-measurement-impl-17.3.0/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:49:13-87
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/762989cf5f6ad7f9c3994cae46fcdc67/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/762989cf5f6ad7f9c3994cae46fcdc67/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/762989cf5f6ad7f9c3994cae46fcdc67/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/762989cf5f6ad7f9c3994cae46fcdc67/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/762989cf5f6ad7f9c3994cae46fcdc67/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/08d6401ad06c2227151cafefbb0588cd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/08d6401ad06c2227151cafefbb0588cd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/08d6401ad06c2227151cafefbb0588cd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/fc5e1324ca586360a646ba29677d31d7/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/fc5e1324ca586360a646ba29677d31d7/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/fc5e1324ca586360a646ba29677d31d7/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/fc5e1324ca586360a646ba29677d31d7/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/fc5e1324ca586360a646ba29677d31d7/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79

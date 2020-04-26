@@ -1,0 +1,7 @@
+package com.eunsong.clothingmatcherbycamera.detector;
+
+import java.lang.System;
+
+@kotlin.Metadata(mv = {1, 1, 16}, bv = {1, 0, 3}, k = 2, d1 = {"\u0000&\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\n\u0000*\u008f\u0001\u0010\u0000\"8\u0012\u0019\u0012\u0017\u0012\u0004\u0012\u00020\u0003`\u0002\u00a2\u0006\f\b\u0004\u0012\b\b\u0005\u0012\u0004\b\b(\u0006\u0012\u0013\u0012\u00110\u0007\u00a2\u0006\f\b\u0004\u0012\b\b\u0005\u0012\u0004\b\b(\b\u0012\u0004\u0012\u00020\t0\u00012Q\u00122\u00120\u0012\u0004\u0012\u00020\u00030\nj\u0017\u0012\u0004\u0012\u00020\u0003`\u0002\u00a2\u0006\f\b\u0004\u0012\b\b\u0005\u0012\u0004\b\b(\u0006\u00a2\u0006\f\b\u0004\u0012\b\b\u0005\u0012\u0004\b\b(\u0006\u0012\u0013\u0012\u00110\u0007\u00a2\u0006\f\b\u0004\u0012\b\b\u0005\u0012\u0004\b\b(\b\u0012\u0004\u0012\u00020\t0\u0001\u00a8\u0006\u000b"}, d2 = {"ContourListener", "Lkotlin/Function2;", "Lkotlin/collections/ArrayList;", "Lcom/eunsong/clothingmatcherbycamera/detector/FaceContourGraphic$FaceContourData;", "Lkotlin/ParameterName;", "name", "points", "Lcom/eunsong/clothingmatcherbycamera/detector/FaceContourGraphic$FaceDetectInfo;", "faceInfo", "", "Ljava/util/ArrayList;", "app_debug"})
+public final class FaceContourGraphicKt {
+}

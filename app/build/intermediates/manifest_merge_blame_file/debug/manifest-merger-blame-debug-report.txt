@@ -1,0 +1,225 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.eunsong.clothingmatcherbycamera"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:5:5-65
+11-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:6:5-67
+12-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:7:5-81
+13-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:7:22-78
+14
+15    <uses-feature android:name="android.hardware.camera" />
+15-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:9:5-60
+15-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:9:19-57
+16    <uses-feature android:name="android.hardware.camera.autofocus" />
+16-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:10:5-70
+16-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:10:19-67
+17
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.gms:play-services-measurement-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5b5f408fe0af55cafb95d6b41bb94c4f/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:23:5-79
+18-->[com.google.android.gms:play-services-measurement-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5b5f408fe0af55cafb95d6b41bb94c4f/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:23:22-76
+19    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+19-->[com.google.android.gms:play-services-measurement-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5b5f408fe0af55cafb95d6b41bb94c4f/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:24:5-68
+19-->[com.google.android.gms:play-services-measurement-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5b5f408fe0af55cafb95d6b41bb94c4f/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:24:22-65
+20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+20-->[com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:5-82
+20-->[com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:22-79
+21    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+21-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:26:5-110
+21-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:26:22-107
+22
+23    <application
+23-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:12:5-35:19
+24        android:name="com.eunsong.clothingmatcherbycamera.CameraApplication"
+24-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:13:9-42
+25        android:allowBackup="true"
+25-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:14:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/3c1ede73863ebb249ff44a4f5fb51ed1/core-1.2.0/AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:icon="@mipmap/ic_launcher"
+29-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:15:9-43
+30        android:label="@string/app_name"
+30-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:16:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:17:9-54
+32        android:supportsRtl="true"
+32-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:18:9-35
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme" >
+34-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:19:9-40
+35        <meta-data
+35-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:21:9-23:36
+36            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+36-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:22:13-70
+37            android:value="face" />
+37-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:23:13-33
+38
+39        <activity android:name="com.eunsong.clothingmatcherbycamera.CameraActivity" >
+39-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:25:9-27:20
+39-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:25:19-49
+40        </activity>
+41        <activity android:name="com.eunsong.clothingmatcherbycamera.MainActivity" >
+41-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:28:9-34:20
+41-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:28:19-47
+42            <intent-filter>
+42-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:29:13-33:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:30:17-69
+43-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:30:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:32:17-77
+45-->/Users/cheon-eunsong/StudioProjects/ClothingMatcherByCamera/app/src/main/AndroidManifest.xml:32:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <service
+49-->[com.google.firebase:firebase-ml-vision:24.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/652d25f5666fb78f931d26a4669bbd19/jetified-firebase-ml-vision-24.0.2/AndroidManifest.xml:9:9-15:19
+50            android:name="com.google.firebase.components.ComponentDiscoveryService"
+50-->[com.google.firebase:firebase-ml-vision:24.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/652d25f5666fb78f931d26a4669bbd19/jetified-firebase-ml-vision-24.0.2/AndroidManifest.xml:10:13-84
+51            android:directBootAware="true"
+51-->[com.google.firebase:firebase-common:19.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/762989cf5f6ad7f9c3994cae46fcdc67/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+52            android:exported="false" >
+52-->[com.google.firebase:firebase-ml-vision:24.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/652d25f5666fb78f931d26a4669bbd19/jetified-firebase-ml-vision-24.0.2/AndroidManifest.xml:11:13-37
+53            <meta-data
+53-->[com.google.firebase:firebase-ml-vision:24.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/652d25f5666fb78f931d26a4669bbd19/jetified-firebase-ml-vision-24.0.2/AndroidManifest.xml:12:13-14:85
+54                android:name="com.google.firebase.components:com.google.firebase.ml.vision.VisionRegistrar"
+54-->[com.google.firebase:firebase-ml-vision:24.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/652d25f5666fb78f931d26a4669bbd19/jetified-firebase-ml-vision-24.0.2/AndroidManifest.xml:13:17-108
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[com.google.firebase:firebase-ml-vision:24.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/652d25f5666fb78f931d26a4669bbd19/jetified-firebase-ml-vision-24.0.2/AndroidManifest.xml:14:17-82
+56            <meta-data
+56-->[com.google.firebase:firebase-ml-common:22.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/a375ee2ca285db46d1401c23df6feeb6/jetified-firebase-ml-common-22.1.0/AndroidManifest.xml:11:13-13:85
+57                android:name="com.google.firebase.components:com.google.firebase.ml.common.CommonComponentRegistrar"
+57-->[com.google.firebase:firebase-ml-common:22.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/a375ee2ca285db46d1401c23df6feeb6/jetified-firebase-ml-common-22.1.0/AndroidManifest.xml:12:17-117
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.firebase:firebase-ml-common:22.1.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/a375ee2ca285db46d1401c23df6feeb6/jetified-firebase-ml-common-22.1.0/AndroidManifest.xml:13:17-82
+59            <meta-data
+59-->[com.google.android.gms:play-services-measurement-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5b5f408fe0af55cafb95d6b41bb94c4f/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:30:13-32:85
+60                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+60-->[com.google.android.gms:play-services-measurement-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5b5f408fe0af55cafb95d6b41bb94c4f/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:31:17-139
+61                android:value="com.google.firebase.components.ComponentRegistrar" />
+61-->[com.google.android.gms:play-services-measurement-api:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/5b5f408fe0af55cafb95d6b41bb94c4f/jetified-play-services-measurement-api-17.3.0/AndroidManifest.xml:32:17-82
+62            <meta-data
+62-->[com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
+63                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+63-->[com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
+65        </service>
+66
+67        <receiver
+67-->[com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
+68            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+68-->[com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
+69            android:exported="true"
+69-->[com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
+70            android:permission="com.google.android.c2dm.permission.SEND" >
+70-->[com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
+71            <intent-filter>
+71-->[com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
+72                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+72-->[com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
+72-->[com.google.firebase:firebase-iid:20.0.2] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/cfd96080c07e6fedf92cf7bef6cf942c/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
+73            </intent-filter>
+74        </receiver>
+75
+76        <activity
+76-->[com.google.android.gms:play-services-base:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/33e1cec4e72bb8c29b918223476f718f/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+77            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+77-->[com.google.android.gms:play-services-base:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/33e1cec4e72bb8c29b918223476f718f/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+78            android:exported="false"
+78-->[com.google.android.gms:play-services-base:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/33e1cec4e72bb8c29b918223476f718f/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+79-->[com.google.android.gms:play-services-base:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/33e1cec4e72bb8c29b918223476f718f/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+80
+81        <receiver
+81-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:29:9-33:20
+82            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+82-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:30:13-85
+83            android:enabled="true"
+83-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:31:13-35
+84            android:exported="false" >
+84-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:32:13-37
+85        </receiver>
+86        <receiver
+86-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:34:9-42:20
+87            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+87-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:35:13-100
+88            android:enabled="true"
+88-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:36:13-35
+89            android:exported="true"
+89-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:37:13-36
+90            android:permission="android.permission.INSTALL_PACKAGES" >
+90-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:38:13-69
+91            <intent-filter>
+91-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:39:13-41:29
+92                <action android:name="com.android.vending.INSTALL_REFERRER" />
+92-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:40:17-79
+92-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:40:25-76
+93            </intent-filter>
+94        </receiver>
+95
+96        <service
+96-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:44:9-47:40
+97            android:name="com.google.android.gms.measurement.AppMeasurementService"
+97-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:45:13-84
+98            android:enabled="true"
+98-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:46:13-35
+99            android:exported="false" />
+99-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:47:13-37
+100        <service
+100-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:48:9-52:72
+101            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+101-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:49:13-87
+102            android:enabled="true"
+102-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:50:13-35
+103            android:exported="false"
+103-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:51:13-37
+104            android:permission="android.permission.BIND_JOB_SERVICE" />
+104-->[com.google.android.gms:play-services-measurement:17.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/f236db25fdac46f8dfb3258a543e1264/jetified-play-services-measurement-17.3.0/AndroidManifest.xml:52:13-69
+105
+106        <provider
+106-->[com.google.firebase:firebase-common:19.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/762989cf5f6ad7f9c3994cae46fcdc67/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+107            android:name="com.google.firebase.provider.FirebaseInitProvider"
+107-->[com.google.firebase:firebase-common:19.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/762989cf5f6ad7f9c3994cae46fcdc67/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+108            android:authorities="com.eunsong.clothingmatcherbycamera.firebaseinitprovider"
+108-->[com.google.firebase:firebase-common:19.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/762989cf5f6ad7f9c3994cae46fcdc67/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+109            android:exported="false"
+109-->[com.google.firebase:firebase-common:19.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/762989cf5f6ad7f9c3994cae46fcdc67/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+110            android:initOrder="100" />
+110-->[com.google.firebase:firebase-common:19.3.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/762989cf5f6ad7f9c3994cae46fcdc67/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+111
+112        <meta-data
+112-->[com.google.android.gms:play-services-basement:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/08d6401ad06c2227151cafefbb0588cd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+113            android:name="com.google.android.gms.version"
+113-->[com.google.android.gms:play-services-basement:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/08d6401ad06c2227151cafefbb0588cd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+114            android:value="@integer/google_play_services_version" />
+114-->[com.google.android.gms:play-services-basement:17.0.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/08d6401ad06c2227151cafefbb0588cd/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+115
+116        <provider
+116-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/fc5e1324ca586360a646ba29677d31d7/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+117            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+117-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/fc5e1324ca586360a646ba29677d31d7/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+118            android:authorities="com.eunsong.clothingmatcherbycamera.lifecycle-process"
+118-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/fc5e1324ca586360a646ba29677d31d7/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+119            android:exported="false"
+119-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/fc5e1324ca586360a646ba29677d31d7/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+120            android:multiprocess="true" />
+120-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/cheon-eunsong/.gradle/caches/transforms-2/files-2.1/fc5e1324ca586360a646ba29677d31d7/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+121    </application>
+122
+123</manifest>

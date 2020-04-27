@@ -95,13 +95,15 @@
                 app:layout_constraintTop_toTopOf="parent"/>
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:backgroundTint="@color/bgCamera"
+                android:background="@color/bgCamera"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:id="@+id/guide_container"
                 app:layout_constraintBottom_toBottomOf="parent">
 
                 <TextView
                     style="@style/AppTheme.Camera.GuideTitle"
+                    android:text="@{viewmodel.guideText}"
                     android:id="@+id/guide_title"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -144,7 +146,8 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    android:src="@drawable/ic_outline"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:background="@drawable/ic_outline"
                     android:layout_width="@dimen/camera_shutter_btn_size"
                     android:layout_height="@dimen/camera_shutter_btn_size" />
 

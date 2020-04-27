@@ -7,9 +7,10 @@ import android.util.Log
 import android.util.Size
 import android.view.SurfaceHolder
 import android.view.SurfaceView
-import android.widget.RelativeLayout
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.eunsong.clothingmatcherbycamera.detector.FaceContourGraphic
+import timber.log.Timber
+
 
 class ImagePreview(context: Context?, attrs: AttributeSet?): SurfaceView(context, attrs), SurfaceHolder.Callback {
 
@@ -46,7 +47,26 @@ class ImagePreview(context: Context?, attrs: AttributeSet?): SurfaceView(context
         postInvalidate()
     }
 
+    /**
+     * clear 알아보기
+     */
+    fun clear(bgBitmap: Bitmap) {
+        Timber.i("clear!!!")
+        try {
+            val canvas = viewHolder.lockCanvas()
+
+            canvas.setBitmap(bgBitmap)
+            canvas.drawColor(Color.TRANSPARENT, PorterDuff.Mode.CLEAR)
+
+            viewHolder.unlockCanvasAndPost(canvas)
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+
+    }
+
     fun run(bgBitmap: Bitmap, faceInfo: FaceContourGraphic.FaceDetectInfo) {
+        Timber.i("run!!!")
 
         bgInfo?.let { bgface ->
 
@@ -68,6 +88,7 @@ class ImagePreview(context: Context?, attrs: AttributeSet?): SurfaceView(context
                 Log.i("ImagePreview","px / py $realPx $py")
 
                 canvas.drawBitmap(bgBitmap, realPx, py, paint)
+
 //                    canvas.drawBitmap(resizeBitmap, 0.0f, 0.0f, null)
             } finally {
                 viewHolder.unlockCanvasAndPost(canvas)

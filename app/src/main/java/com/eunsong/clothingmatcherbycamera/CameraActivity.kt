@@ -15,6 +15,7 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
+import androidx.lifecycle.Observer
 import com.bumptech.glide.Glide
 import com.eunsong.clothingmatcherbycamera.adapter.ClothesPickerAdapter
 import com.eunsong.clothingmatcherbycamera.adapter.holder.ClothesItemHolder
@@ -147,7 +148,7 @@ class CameraActivity : AppCompatActivity(),
         }
 
         viewDataBinding.facingSwitch.setOnClickListener {
-
+            changeFacing()
         }
 
         viewmodel.updateClothesPreview.observe(this, EventObserver {
@@ -161,6 +162,30 @@ class CameraActivity : AppCompatActivity(),
                 }
             }
         })
+
+        viewmodel.isDetectedFace.observe(this, Observer {
+            viewDataBinding.guideContainer.visibility = if (it /*&& viewmodel.isDetectedClothes.value != true*/) View.GONE else View.VISIBLE
+            if(!it) {
+                viewmodel.setGuideText(resources.getString(R.string.camera_guide_title))
+                viewDataBinding.guideContainer.setBackgroundColor(getColor(R.color.bgCamera))
+            }
+        })
+
+        viewmodel.isDetectedClothes.observe(this, Observer {
+            viewDataBinding.guideContainer.visibility = if (it) View.GONE else View.VISIBLE
+            if (!it){
+                viewmodel.setGuideText(resources.getString(R.string.image_face_recognition_fail))
+                viewDataBinding.guideContainer.setBackgroundColor(getColor(R.color.failColor))
+                viewDataBinding.shutterBtn.backgroundTintList = resources.getColorStateList(R.color.failColor)
+            } else {
+                viewDataBinding.shutterBtn.backgroundTintList = resources.getColorStateList(R.color.bgCamera)
+            }
+        })
+
+        viewmodel.clearClothes.observe(this, EventObserver {
+            viewmodel.finalClothes?.run { viewDataBinding.clothesView.clear(this) }
+        })
+
     }
 
     private fun getRuntimePermissions() {

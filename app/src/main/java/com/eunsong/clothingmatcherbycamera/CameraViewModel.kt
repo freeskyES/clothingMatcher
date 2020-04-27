@@ -1,5 +1,6 @@
 package com.eunsong.clothingmatcherbycamera
 
+import android.app.Application
 import android.graphics.Bitmap
 import androidx.lifecycle.*
 import com.eunsong.clothingmatcherbycamera.adapter.model.ClothesItem
@@ -28,6 +29,9 @@ class CameraViewModel(): ViewModel(), DetectorCallback {
     private val _isDetectedClothes = MutableLiveData<Boolean>().apply { value = true }
     val isDetectedClothes: LiveData<Boolean> = _isDetectedClothes
 
+    private val _guideText = MutableLiveData<String>()
+    val guideText: LiveData<String> = _guideText
+
     private val _images = MutableLiveData<List<ClothesItem>>().apply { value = emptyList() }
     val images: LiveData<List<ClothesItem>> = _images
 
@@ -42,6 +46,9 @@ class CameraViewModel(): ViewModel(), DetectorCallback {
 
     private val _pasteClothes = MutableLiveData<Event<Unit>>()
     val pasteClothes: LiveData<Event<Unit>> = _pasteClothes
+
+    private val _clearClothes = MutableLiveData<Event<Unit>>()
+    val clearClothes: LiveData<Event<Unit>> = _clearClothes
 
     var faceInfoOfClothes: FaceContourGraphic.FaceDetectInfo? = null
 
@@ -64,12 +71,18 @@ class CameraViewModel(): ViewModel(), DetectorCallback {
         }
     }
 
+    fun setGuideText(text: String) {
+        _guideText.value = text
+    }
+
     private fun onChangedSelectedImage(url: String) {
         clothesManager.setupImage(url)
 
         selectedImage.value?.run { _selectedImageName.value = this.productName }
         _isDetectedClothes.value = true
+        if(finalClothes != null) _clearClothes.value = Event(Unit)
         faceInfoOfClothes = null
+        finalClothes = null
     }
 
     fun setImages(cameraParam: CameraParam) {

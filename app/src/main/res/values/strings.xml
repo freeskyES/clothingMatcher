@@ -14,7 +14,7 @@
     <!--    <string name="pref_title_camera_live_viewport">Enable live viewport</string>-->
     <!--    <string name="pref_summary_camera_live_viewport">Do not block camera preview drawing on detection</string>-->
 
-    <string name="camera_guide_title">Please put your face\non the guideline</string>
-    <string name="camera_recognition_fail">Unable to recognize any faces</string>
+    <string name="camera_guide_title">Please put your face on the screen</string>
+    <string name="image_face_recognition_fail">Unable to recognize any faces</string>
 
 </resources>
